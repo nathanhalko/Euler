@@ -1,5 +1,13 @@
 package com.spotinfluence
 
+/* -ljr
+ *
+ * val answer = BigInt(2).pow(1000).toString.map{Character.toString(_).toInt}.sum
+ *
+ * This question either determines if you can translate pencil-and-paper multiplication
+ * to the computer as you did or if you are intimately familiar with your libraries.  :/
+ */
+
 object Prob016 {
   def main(args: Array[String]) {
 

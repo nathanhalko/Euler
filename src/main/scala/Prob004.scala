@@ -12,6 +12,21 @@ object Prob004 {
 
     def findPal(i: Int) = {
       Vector((1 to i).reverse:_*).view map(_*i) find isPal
+
+/* -ljr
+ *
+ * Vector is the default for Seq but you'll find List() much more common
+ * in code.  Unless you suspect you'll need quick indexing or size() of the
+ * Seq you are probably better off with a List.  (Smaller memory footprint
+ * mainly.)
+ *
+ * If you find you want to build a list without having to reverse the
+ * elements so they end up in the correct order you can use ListBuffer.
+ *
+ *    val b = List.newBuilder[Int]
+ *    for (i <- to 10) { b += i }
+ *    val myList = b.result
+ */
     }
 
 
@@ -21,7 +36,25 @@ object Prob004 {
 
     println(Pals.max)
 
+/* -ljr
+ *
+ * Consider
+ *
+ *    val xs = for {
+ *      i <- 100 until 1000
+ *      j <- 100 until 1000
+ *    } yield i * j
+ *
+ *    xs.filter{isPal(_)}.max
+ *
+ * It's very difficult to multiply the 900x900 values in such a way that
+ * you get the largest values in order.  As such your findPal() is just
+ * doing a bit of extra work in recreating a Vector(1 to i: _*).  You are
+ * also technically not multiplying 3-digit by 3-digit numbers so if it
+ * happened that no 3-digit x 3-digit number was a palindrome you would
+ * get an incorrect answer.
 /*
+
 val n = 999
 var f1= n
 var f2= n

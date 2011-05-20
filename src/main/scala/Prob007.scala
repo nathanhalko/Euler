@@ -20,9 +20,21 @@ object Prob007 {
     }
 
     while (primes.length < 10001) {
+/* -ljr
+ *
+ * List.length() (and List.size()) have to count every element in the list so are O(n).
+ * Because you are doing so many tests here you are really slowing down your run.
+ * Better to use a Vector or Array which have O(1) length().
+ */
       primes = findNextPrime(primes(0)+1)::primes
     }
 
          println("The "+primes.length+"th prime is: "+primes(0))
   }
 }
+
+/* -ljr
+ *
+ * If you keep playing with Euler it's worth your while to develop a library
+ * for generating and working with primes.
+ */
