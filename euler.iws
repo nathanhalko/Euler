@@ -4,6 +4,8 @@
     <list default="true" id="dc70e105-6d9e-47d2-af32-55e82c38f606" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/Prob009.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/euler.iws" afterPath="$PROJECT_DIR$/euler.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/Prob002.scala" afterPath="$PROJECT_DIR$/src/main/scala/Prob002.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/Prob004.scala" afterPath="$PROJECT_DIR$/src/main/scala/Prob004.scala" />
     </list>
     <ignored path="euler.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -98,10 +100,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Prob002.scala" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Prob002.scala" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Prob002.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="9" selection-start="372" selection-end="505" vertical-scroll-proportion="0.0">
+            <state line="6" column="4" selection-start="80" selection-end="80" vertical-scroll-proportion="0.16014235">
               <folding />
             </state>
           </provider>
@@ -119,7 +121,7 @@
       <file leaf-file-name="Prob004.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Prob004.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="0" selection-start="1502" selection-end="1502" vertical-scroll-proportion="0.0">
+            <state line="60" column="3" selection-start="1513" selection-end="1513" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -134,10 +136,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Prob009.scala" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Prob009.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Prob009.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="53" selection-start="531" selection-end="531" vertical-scroll-proportion="0.45373666">
+            <state line="17" column="53" selection-start="531" selection-end="531" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -170,11 +172,11 @@
         <option value="$PROJECT_DIR$/src/main/scala/Prob003.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Prob016.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Prob007.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/Prob004.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/Prob002.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Prob282.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Prob025.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Prob009.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/Prob004.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/Prob002.scala" />
       </list>
     </option>
   </component>
@@ -644,7 +646,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="78" width="1647" height="1029" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49835345" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -658,7 +660,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32978722" sideWeight="0.67069155" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32930845" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32930845" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -756,13 +758,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Prob002.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="9" selection-start="372" selection-end="505" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Prob016.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="21" selection-start="770" selection-end="770" vertical-scroll-proportion="0.0">
@@ -777,16 +772,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Prob004.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Prob009.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="0" selection-start="1502" selection-end="1502" vertical-scroll-proportion="0.0">
+        <state line="17" column="53" selection-start="531" selection-end="531" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Prob009.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Prob004.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="53" selection-start="531" selection-end="531" vertical-scroll-proportion="0.45373666">
+        <state line="60" column="3" selection-start="1513" selection-end="1513" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Prob002.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="4" selection-start="80" selection-end="80" vertical-scroll-proportion="0.16014235">
           <folding />
         </state>
       </provider>

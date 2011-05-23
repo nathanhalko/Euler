@@ -57,6 +57,7 @@ object Prob004 {
  * also technically not multiplying 3-digit by 3-digit numbers so if it
  * happened that no 3-digit x 3-digit number was a palindrome you would
  * get an incorrect answer.
+<<<<<<< HEAD
  */
 
 
