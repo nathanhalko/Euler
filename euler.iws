@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dc70e105-6d9e-47d2-af32-55e82c38f606" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/Prob025.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/euler.iws" afterPath="$PROJECT_DIR$/euler.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/Prob002.scala" afterPath="$PROJECT_DIR$/src/main/scala/Prob002.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/Prob003.scala" afterPath="$PROJECT_DIR$/src/main/scala/Prob003.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/Prob004.scala" afterPath="$PROJECT_DIR$/src/main/scala/Prob004.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/Prob007.scala" afterPath="$PROJECT_DIR$/src/main/scala/Prob007.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/Prob016.scala" afterPath="$PROJECT_DIR$/src/main/scala/Prob016.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/Prob282.scala" afterPath="$PROJECT_DIR$/src/main/scala/Prob282.scala" />
-    </list>
+    <list default="true" id="dc70e105-6d9e-47d2-af32-55e82c38f606" name="Default" comment="" />
     <ignored path="euler.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -623,7 +614,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="43" y="118" width="1647" height="1029" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
