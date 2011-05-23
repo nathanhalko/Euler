@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc70e105-6d9e-47d2-af32-55e82c38f606" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/Prob025.scala" afterPath="$PROJECT_DIR$/src/main/scala/Prob025.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/Prob282.scala" afterPath="$PROJECT_DIR$/src/main/scala/Prob282.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/Prob009.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/euler.iws" afterPath="$PROJECT_DIR$/euler.iws" />
     </list>
     <ignored path="euler.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -125,10 +125,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Prob025.scala" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Prob025.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Prob025.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="5" selection-start="1229" selection-end="1229" vertical-scroll-proportion="0.54626334">
+            <state line="64" column="5" selection-start="1229" selection-end="1229" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Prob009.scala" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/Prob009.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="53" selection-start="531" selection-end="531" vertical-scroll-proportion="0.45373666">
               <folding />
             </state>
           </provider>
@@ -165,6 +174,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/Prob002.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Prob282.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Prob025.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/Prob009.scala" />
       </list>
     </option>
   </component>
@@ -391,23 +401,7 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="RunManager" selected="Application.Prob025">
-    <configuration default="false" name="Prob025" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.spotinfluence.Prob025" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="euler" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.Prob009">
     <configuration default="false" name="Prob002" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.spotinfluence.Prob002" />
       <option name="VM_PARAMETERS" />
@@ -458,6 +452,22 @@
     </configuration>
     <configuration default="false" name="Prob282" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.spotinfluence.Prob282" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="euler" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Prob009" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.spotinfluence.Prob009" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -594,11 +604,11 @@
       </method>
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Prob025" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Prob002" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Prob004" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Prob016" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Prob282" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Prob002" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Prob004" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Prob016" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Prob282" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Prob009" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -634,7 +644,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="78" width="1647" height="1029" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49835345" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -732,13 +742,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Prob004.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="0" selection-start="1502" selection-end="1502" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Prob003.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="58" selection-start="400" selection-end="400" vertical-scroll-proportion="0.0">
@@ -769,7 +772,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Prob025.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="5" selection-start="1229" selection-end="1229" vertical-scroll-proportion="0.54626334">
+        <state line="64" column="5" selection-start="1229" selection-end="1229" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Prob004.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="0" selection-start="1502" selection-end="1502" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Prob009.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="53" selection-start="531" selection-end="531" vertical-scroll-proportion="0.45373666">
           <folding />
         </state>
       </provider>
