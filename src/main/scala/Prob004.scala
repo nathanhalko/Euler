@@ -10,8 +10,12 @@ object Prob004 {
      }
 
 
+    /*
     def findPal(i: Int) = {
-      Vector((1 to i).reverse:_*).view map(_*i) find isPal
+      List(100 to i:_*).map(_*i).filter{isPal}
+    }
+    */
+
 
 /* -ljr
  *
@@ -27,13 +31,13 @@ object Prob004 {
  *    for (i <- to 10) { b += i }
  *    val myList = b.result
  */
-    }
 
+    val xs = for {
+      i <- 100 until 1000
+      j <- 100 until 1000
+    }  yield i * j
 
-    val Pals = for {
-      n <- (100 until 1000).reverse
-    } yield findPal(n)
-
+    val Pals = xs.filter{isPal}
     println(Pals.max)
 
 /* -ljr
@@ -53,8 +57,10 @@ object Prob004 {
  * also technically not multiplying 3-digit by 3-digit numbers so if it
  * happened that no 3-digit x 3-digit number was a palindrome you would
  * get an incorrect answer.
-/*
+ */
 
+
+/*
 val n = 999
 var f1= n
 var f2= n

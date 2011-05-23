@@ -5,9 +5,12 @@ object Prob282 {
   def main(args: Array[String]) {
 
 
-    def Ack(m:BigInt, n:BigInt): BigInt = {
+    def Ack(m:BigInt, n:BigInt, z: List[BigInt]): BigInt = {
 
-      if (m == 0)           n+1
+      //val p = BigInt(14).pow(8)
+        val p = 13
+
+      if (m == 0)           (n+1) % p
       if (n == 0)           Ack(m-1,1)
       else                  Ack(m-1,Ack(m,n-1))
     }

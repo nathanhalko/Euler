@@ -4,7 +4,7 @@ package com.spotinfluence
 object Prob002 {
   def main(args: Array[String]) {
 
-  var sum = 2
+/*  var sum = 2
   var x   = 1
   var y   = 2
   var z   = 3
@@ -23,6 +23,16 @@ object Prob002 {
   }
 
      println("Sum of even Fibonacci numbers less than 4,000,000: "+sum)
+  */
+
+    def fib(a:Int, b:Int, max:Int, z:List[Int] = Nil):List[Int] ={
+      if (a > max) z.reverse
+      else fib(b, a+b, max, a :: z)
+    }
+
+    val fibSum = fib(1,2,4000000).filter{_ % 2 ==0}.sum
+
+    println("Sum of even Fibonacci numbers less than 4,000,000: %d".format(fibSum))
   }
 }
 
@@ -59,6 +69,9 @@ though
 then the recursive call to fib is in tail-call position.  This is important because tail
 call recursion is equivalent to a while() loop and the compiler can drop the intermitent
 stack frames meaning you won't blow the stack with deep recursion.
+
+-nph  Nice, I have been seeing examples of how/why to use tail call recursion but this
+is very clear now
 
 (As an aside consider:
 

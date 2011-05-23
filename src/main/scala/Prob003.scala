@@ -21,4 +21,11 @@ object Prob003 {
 
 Nice.
 
+-nph  Do you know any slick way to raise a number to a power without doing
+
+import scala.math._
+pow(2,10)                ??
+
+The '**' or '^' doesn't seem to work.
+
 */
