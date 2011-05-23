@@ -18,6 +18,7 @@ object Prob025 {
     }
     */
 
+    /*
   def addBigNums(a:Array[Int], b:Array[Int]):Array[Int] = {
     var tmp = (0,0)
     val c = new Array[Int](a.length)
@@ -51,13 +52,26 @@ object Prob025 {
       y = z
       z = addBigNums(x,y)
       fn += 1
-      println(fn)
-      println(z.reverse.deep.mkString)
+      //println(fn)
+      //println(z.reverse.deep.mkString)
+    }
+    */
+
+     def fib(a:BigInt, b:BigInt, max:Int, z:List[BigInt] = Nil):List[BigInt] ={
+      if (a.toString.length >= max) a :: z
+      else fib(b, a+b, max, a :: z)
+
     }
 
+    val max = 100
+    val z =  fib(1,1,max)
+    println("The %d th Fibonacci number has %d digits".format(z.length,max))
+    println(z.head)
+
+    /*
     println("The "+fn+"th Fibonacci number has "+digits+" digits")
     println(z.reverse.deep.mkString)
-
+    */
 
   }
 }
