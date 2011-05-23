@@ -4,6 +4,7 @@ package com.spotinfluence
 object Prob002 {
   def main(args: Array[String]) {
 
+  /*
   var sum = 2
   var x   = 1
   var y   = 2
@@ -21,7 +22,14 @@ object Prob002 {
       println("Partial sum: "+sum)
     }
   }
+    */
 
+     def fib(a: Int, b: Int, max: Int, z: List[Int] = Nil): List[Int] = {
+       if (a > max) z.reverse
+       else fib(b, a+b, max, a :: z)
+      }
+
+     val sum = fib(1,2,4000000).filter{_%2==0}.sum
      println("Sum of even Fibonacci numbers less than 4,000,000: "+sum)
   }
 }
