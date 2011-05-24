@@ -35,7 +35,7 @@ object primes {
       else findNext(c+2)
     }
 
-    findNext(primes.last+1)
+    findNext(primes.last+2)
   }
 
 
