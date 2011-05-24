@@ -48,6 +48,8 @@ object Prob001 {
  */
       println(nums.sum)
 
+    //println(com.spotinfluence.Prob007.findNextPrime(100))
+
    /*
     val nums = for {
       n <- 1 until 1000

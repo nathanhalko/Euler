@@ -57,10 +57,9 @@ object Prob025 {
     }
     */
 
-     def fib(a:BigInt, b:BigInt, max:Int, z:List[BigInt] = Nil):List[BigInt] ={
+     def fib(a:BigInt, b:BigInt, max:Int, z:List[BigInt] = Nil):List[BigInt] = {
       if (a.toString.length >= max) a :: z
       else fib(b, a+b, max, a :: z)
-
     }
 
     val max = 100
