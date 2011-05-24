@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dc70e105-6d9e-47d2-af32-55e82c38f606" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/euler.iws" afterPath="$PROJECT_DIR$/euler.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/nphEuler/primes.scala" afterPath="$PROJECT_DIR$/src/main/scala/nphEuler/primes.scala" />
-    </list>
+    <list default="true" id="dc70e105-6d9e-47d2-af32-55e82c38f606" name="Default" comment="" />
     <ignored path="euler.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
