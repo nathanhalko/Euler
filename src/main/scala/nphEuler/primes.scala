@@ -9,7 +9,7 @@ object primes {
      Generate primes up to n
    */
 
-  def genPrime(n:Int): List[Int] = {
+  def genPrimes(n:Int): List[Int] = {
 
     var p:List[Int] = Nil
     var nums   = List(2 to n:_*)
@@ -23,9 +23,31 @@ object primes {
     p.reverse
   }
 
+  /*
+  Given a list of primes, find the next one
+   */
 
-  def isPrime(n: Int) = {
-    genPrime(ceil(sqrt(n)).toInt).find(n % _ == 0).isEmpty
+  def nextPrime(primes:List[Int]): Int = {
+
+    def findNext(c:Int = primes.last+1): Int = {
+      if (primes.find( c % _ == 0).isEmpty) c
+      //if (isPrime(c,primes)) c
+      else findNext(c+2)
+    }
+    c
+  }
+
+
+
+
+  def isPrime(n: Int,list:List[Int] = Nil): Boolean = {
+    val N = ceil(sqrt(n)).toInt
+    if (list.isEmpty || list.last <= N) {
+      val list = genPrimes(N)
+    }
+
+
+    list.find(n % _ == 0).isEmpty
   }
 
 
