@@ -29,12 +29,13 @@ object primes {
 
   def nextPrime(primes:List[Int]): Int = {
 
-    def findNext(c:Int = primes.last+1): Int = {
+    def findNext(c:Int): Int = {
       if (primes.find( c % _ == 0).isEmpty) c
       //if (isPrime(c,primes)) c
       else findNext(c+2)
     }
-    c
+
+    findNext(primes.last+1)
   }
 
 
