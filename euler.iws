@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dc70e105-6d9e-47d2-af32-55e82c38f606" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/Prob009.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/Prob025.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/nphEuler/primes.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/Prob001.scala" afterPath="$PROJECT_DIR$/src/main/scala/Prob001.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/Prob002.scala" afterPath="$PROJECT_DIR$/src/main/scala/Prob002.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/Prob003.scala" afterPath="$PROJECT_DIR$/src/main/scala/Prob003.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/Prob004.scala" afterPath="$PROJECT_DIR$/src/main/scala/Prob004.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/Prob007.scala" afterPath="$PROJECT_DIR$/src/main/scala/Prob007.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/Prob016.scala" afterPath="$PROJECT_DIR$/src/main/scala/Prob016.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/Prob282.scala" afterPath="$PROJECT_DIR$/src/main/scala/Prob282.scala" />
-    </list>
+    <list default="true" id="dc70e105-6d9e-47d2-af32-55e82c38f606" name="Default" comment="" />
     <ignored path="euler.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -79,10 +68,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Prob001.scala" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Prob001.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Prob001.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="491" selection-end="491" vertical-scroll-proportion="0.43814433">
+            <state line="7" column="53" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="primes.scala" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/nphEuler/primes.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="7" selection-start="47" selection-end="47" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -345,8 +343,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" />
+              <option name="myItemId" value="nphEuler" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="primes.scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -801,7 +803,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Prob001.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="491" selection-end="491" vertical-scroll-proportion="0.43814433">
+        <state line="7" column="53" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/nphEuler/primes.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="7" selection-start="47" selection-end="47" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
