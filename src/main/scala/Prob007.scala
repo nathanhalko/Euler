@@ -32,6 +32,33 @@ object Prob007 {
  *  -nph  Interesting, I like to pay attention to these things
  *  Is it faster to initialize  new List[Int](1001) or append?  -I'll get read up on this stuff
  */
+
+/* -ljr
+ *
+ * It's probably about the same.  Note that for ALL scala collection classes you can drop the
+ * new and just
+ *
+ *  List(1001) // aka new List[Int](1001)
+ *
+ * Scala will figure out the type through inference.
+ *
+ *  List(1, "A") // aka new List[Any](1, "A")
+ *
+ * I do know that * is faster than sqrt() so given a list of (in order) primes you probably want
+ *
+ *  def isComposite(n: Int, ps: List[Int]): Boolean = {
+ *    if (ps.isEmpty) return true
+ *
+ *    def step(qs: List[Int]): Boolean = {
+ *      val q :: qz = qs
+ *      if (q * q > n) false
+ *      else if (n % q == 0) true
+ *      else step(qz)
+ *    }
+ *
+ *    step(ps)
+ *  }
+ */
       primes = findNextPrime(primes(0)+1)::primes
       i += 1
     }
