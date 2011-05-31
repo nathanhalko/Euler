@@ -37,10 +37,30 @@ object Prob002 {
      println("Sum of even Fibonacci numbers less than 4,000,000: "+sum)
   */
 
-    def fib(a:Int, b:Int, max:Int, z:List[Int] = Nil):List[Int] ={
+    def fib(a:Int, b:Int, max:Int, z:List[Int] = Nil): List[Int] = {
       if (a > max) z.reverse
       else fib(b, a+b, max, a :: z)
     }
+
+/* -ljr
+ *
+ * In Scala you can avoid that reverse if you use a ListBuffer.
+ *
+ * def fib(a: Int, b: Int, max: Int, z: mutable.ListBuffer[Int] = mutable.ListBuffer[Int]()): List[Int] =
+ *   if (a > max) z.result else fib(b, a+b, max, z += a)
+ *
+ * You can get at a list buffer as List.newBuilder[A] but the type won't be mutable.ListBuffer[A].
+ * Useful in anonymous situations where the ListBuffer is never exposed.
+ * -nph ??? no entiendo
+ *
+ * One nice thing
+ * about ListBuffers is that they extend Seq so you can treat them as lists with the benefit of O(1)
+ * length (and thus size) and append.
+ *
+ *  -nph  Thats good to know about the ListBuffer.  Curious why you would call z.result which converts back
+ *  to a List?  This costs the same as 'reverse' and I like that List is immutable.  But I will definitely keep
+ *  an eye out for chances to use ListBuffer when List is not doing the job.
+ */
 
     val fibSum = fib(1,2,4000000).filter{_ % 2 ==0}.sum
 
