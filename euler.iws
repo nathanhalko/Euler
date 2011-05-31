@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc70e105-6d9e-47d2-af32-55e82c38f606" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/euler.ipr" afterPath="$PROJECT_DIR$/euler.ipr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/euler.iws" afterPath="$PROJECT_DIR$/euler.iws" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/nphEuler/primes.scala" afterPath="$PROJECT_DIR$/src/main/scala/nphEuler/primes.scala" />
     </list>
     <ignored path="euler.iws" />
@@ -73,7 +75,7 @@
       <file leaf-file-name="primes.scala" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/nphEuler/primes.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="17" selection-start="379" selection-end="597" vertical-scroll-proportion="0.35714287">
+            <state line="85" column="31" selection-start="1698" selection-end="1698" vertical-scroll-proportion="0.21028037">
               <folding />
             </state>
           </provider>
@@ -260,6 +262,9 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -339,26 +344,28 @@
               <option name="myItemId" value="nphEuler" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="primes.scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Favorites" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="186" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="194" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="191" />
-    <property name="recentsLimit" value="5" />
-    <property name="MemberChooser.sorted" value="false" />
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="191" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Euler_test/src/main/scala" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="198" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="990" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="992" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="990" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="196" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="193" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -366,13 +373,16 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="options.lastSelected" value="editor.preferences.completion" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="Application.Prob001">
     <configuration default="false" name="Prob004" type="Application" factoryName="Application" temporary="true">
@@ -502,18 +512,6 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
     <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
       <module name="" />
       <setting name="path" value="" />
@@ -525,6 +523,18 @@
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
         <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
@@ -748,9 +758,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Prob001.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="53" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="7" column="53" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Prob016.scala">
@@ -780,7 +788,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/nphEuler/primes.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="17" selection-start="379" selection-end="597" vertical-scroll-proportion="0.35714287">
+        <state line="85" column="31" selection-start="1698" selection-end="1698" vertical-scroll-proportion="0.21028037">
           <folding />
         </state>
       </provider>
