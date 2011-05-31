@@ -41,6 +41,9 @@ The '**' or '^' doesn't seem to work.
  *
  *   List.fill(2)(10).product
  *
+ *   -nph   I was looking for the 'fill' functionality the other day.  Why is it not listed
+ *   in the scaladocs??
+ *
  * The normal functional method is
  *
  *   def fastPow[@specialized(Int, Long, Float, Double) A](n: A, p: Int): A = {

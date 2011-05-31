@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc70e105-6d9e-47d2-af32-55e82c38f606" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/nphEuler/primes.scala" afterPath="$PROJECT_DIR$/src/main/scala/nphEuler/primes.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/Prob002.scala" afterPath="$PROJECT_DIR$/src/main/scala/Prob002.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/Prob003.scala" afterPath="$PROJECT_DIR$/src/main/scala/Prob003.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/Prob009.scala" afterPath="$PROJECT_DIR$/src/main/scala/Prob009.scala" />
     </list>
     <ignored path="euler.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -73,7 +75,7 @@
       <file leaf-file-name="primes.scala" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/nphEuler/primes.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="17" selection-start="379" selection-end="597" vertical-scroll-proportion="0.35714287">
+            <state line="18" column="64" selection-start="293" selection-end="293" vertical-scroll-proportion="0.48042706">
               <folding />
             </state>
           </provider>
@@ -88,10 +90,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Prob009.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/Prob009.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="11" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Prob007.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Prob007.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="95" selection-start="227" selection-end="227" vertical-scroll-proportion="0.0">
+            <state line="24" column="110" selection-start="386" selection-end="386" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -100,7 +111,7 @@
       <file leaf-file-name="Prob002.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Prob002.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="4" selection-start="80" selection-end="80" vertical-scroll-proportion="0.0">
+            <state line="29" column="114" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -109,7 +120,7 @@
       <file leaf-file-name="Prob003.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Prob003.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="58" selection-start="400" selection-end="400" vertical-scroll-proportion="0.0">
+            <state line="44" column="23" selection-start="926" selection-end="926" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -119,6 +130,15 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala/Prob004.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state line="60" column="3" selection-start="1513" selection-end="1513" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Prob025.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/Prob025.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="7" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -138,16 +158,16 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/scala/Prob003.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Prob016.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Prob007.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Prob282.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/Prob009.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Prob004.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/Prob002.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Prob025.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Prob001.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/nphEuler/primes.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/Prob002.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/Prob003.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/Prob009.scala" />
       </list>
     </option>
   </component>
@@ -260,6 +280,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -342,23 +364,21 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="Favorites" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="186" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="194" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="191" />
-    <property name="recentsLimit" value="5" />
-    <property name="MemberChooser.sorted" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="191" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Euler_test/src/main/scala" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="198" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="990" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="992" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="990" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="196" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="193" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -374,7 +394,7 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="RunManager" selected="Application.Prob001">
+  <component name="RunManager" selected="Application.Prob009">
     <configuration default="false" name="Prob004" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.spotinfluence.Prob004" />
       <option name="VM_PARAMETERS" />
@@ -502,18 +522,6 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
     <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
       <module name="" />
       <setting name="path" value="" />
@@ -525,6 +533,18 @@
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
         <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
@@ -666,20 +686,20 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49835345" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916147" sideWeight="0.67069155" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32978722" sideWeight="0.67069155" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930845" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930845" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32930845" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916147" sideWeight="0.67069155" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32978722" sideWeight="0.67069155" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930845" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930845" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -753,24 +773,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Prob016.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="21" selection-start="770" selection-end="770" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Prob007.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="95" selection-start="227" selection-end="227" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Prob002.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="4" selection-start="80" selection-end="80" vertical-scroll-proportion="0.0" />
+        <state line="29" column="114" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Prob003.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="58" selection-start="400" selection-end="400" vertical-scroll-proportion="0.0" />
+        <state line="44" column="23" selection-start="926" selection-end="926" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Prob004.scala">
@@ -778,9 +792,35 @@
         <state line="60" column="3" selection-start="1513" selection-end="1513" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Prob025.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="7" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Prob016.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="21" selection-start="770" selection-end="770" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Prob009.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="11" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Prob007.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="110" selection-start="386" selection-end="386" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/nphEuler/primes.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="17" selection-start="379" selection-end="597" vertical-scroll-proportion="0.35714287">
+        <state line="18" column="64" selection-start="293" selection-end="293" vertical-scroll-proportion="0.48042706">
           <folding />
         </state>
       </provider>
