@@ -24,9 +24,14 @@ object Prob010 {
 
     /* I totally cheated and Googled this code, runs in ~1 sec.
     Answer:  142,913,828,922
-
-
     */
+
+    /* -ljr
+     *
+     * You have a poor primes generator then.  The one I have came back immediately.
+     * Ok. Use of lists with a final .reverse is killing you.  I'll comment more in
+     * your primes library.
+     */
 
   }
 }

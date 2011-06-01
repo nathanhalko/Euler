@@ -19,6 +19,12 @@ object Prob008 {
           val s = "12345"  ; s(0).toInt = 49
      */
 
+/* -ljr
+ *
+ * Characters are ASCII/UTF8.  You are translating a character to the Int index of the character in the given charset.
+ * To parse a number use Integer.parseInt(str, base=10)
+ */
+
     println(maxProduct)
 
     //Answer = 40824

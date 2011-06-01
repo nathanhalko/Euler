@@ -14,6 +14,46 @@ Find the next triangle number that is also pentagonal and hexagonal.
 
 
 object Prob045 {
+
+/* -ljr
+ *
+ * This probably takes more experience to see but you can use Iterators to hide a bunch of your while-loop complexity.
+ *
+ *   def genTri(n: Int): Iterator[Int] = new Iterator {
+ *     private var c = n
+ *     def tri(n: Int): Int = (n*(n+1))/2
+ *     def hasNext: Boolean = true
+ *     def next: Int = { c += 1; tri(c) }
+ *     def value: Int = tri(c)
+ *     def index: Int = c
+ *   }
+ *   def genPent(...
+ *   def genHex(...
+ *
+ *   def main() {
+ *     // T_285 == P_165 == H_143
+ *     val triIter = genTri(285)
+ *     val pentIter = genPent(165)
+ *     val hexIter = genHex(143)
+ *
+ *     var a = 1
+ *     var b = 0
+ *     var c = 0
+ *
+ *     while ( !(a == b && b == c) ) {
+ *       a = triIter.next
+ *       while (a > pentIter.next) {}
+ *       while (a > hexIter.next) {}
+ *       b = pentIter.value
+ *       c = hexIter.value
+ *    }
+ *  ...
+ *  }
+ *
+ * It's not so much that it's less code but each "paragraph" is easier to read and comprehend (and eyeball for bugs).
+ * This code also does a better job at highlighting the finish condition you are after.
+ */
+
   def main(args: Array[String]) {
 
     def tri(n:Int)  = (n*(n+1))/2

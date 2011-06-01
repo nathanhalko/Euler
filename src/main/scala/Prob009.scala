@@ -38,6 +38,33 @@ object Prob009 {
   Also annoying: I can't run say Prob003 while there is a bug here in Prob009????
      */
 
+/* -ljr
+ *
+ * Maven assumes the entire codebase is a single project.  To get individual compilation you would need to use sub-modules.
+ * An easy way around this is to rename Broken.scala to Broken.xscala or in some other way remove it as a compilable unit.
+ */
+
+/* -ljr
+ *
+ * Instead of (...).flatten.flatten look at .flatMap{}.  for{} blocks automatically .flatMap{} which is nice.
+ *
+ * I doubt you are actually short circuiting your work.  With Stream() it would probably work but with Iterable it won't.
+ * .find{} stops at the first true value but if you analyze what you have it's
+ *
+ * [ (3,_)[ (3,1)[], (3,2)[], ...], (4,_)[ (4,1)[], (4,2)[], ...], ...] and *then* the flattens do their job.
+ *
+ * You can determine if work is done by changing your .map{n => List(...)} to
+ *
+ *   var c = 0
+ *
+ *   .map{n => c += 1; List(...)}
+ *
+ * and checking the value of `c` after the run.  In this case your dataset is O(20^2).  The major savings came when you
+ * determined that an m<=23 was as large as you needed for sum(a,b,c) <= 1000.  Sometimes it's not worth squeezing out that
+ * extra bit of space/time.  Also, put yourself in a future maintainers seat.  It's a mistake to think we are writing code
+ * for the compiler and not for the future (human) maintainers.
+ */
+
   //val x = pTrip().filter(_.sum == 1000)(0)
   println("%d + %d + %d = 1000".format(x(0),x(1),x(2)))
   println("and %d + %d = %d".format(pow(x(0),2).toInt,pow(x(1),2).toInt,pow(x(2),2).toInt))
