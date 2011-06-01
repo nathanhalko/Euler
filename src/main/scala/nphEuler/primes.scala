@@ -2,6 +2,7 @@
 package nphEuler
 
 import scala.math._
+import scala.collection.mutable.ListBuffer
 
 
 /*
@@ -16,10 +17,10 @@ object primes {
      Uses the sieve of eratosthenes
    */
 
-  def genPrimes(n:BigInt): List[BigInt] = {
+  def genPrimes(n:Int): List[Int] = {
 
-    var p:List[BigInt] = Nil
-    var nums   = 2 :: List.range(3,n,2)   // 3 to n by 2
+    var p:List[Int] = Nil
+    var nums   = 2 :: List.range(3,n.toInt,2)   // 3 to n by 2
 
     while (!nums.isEmpty) {
       p    = nums(0) :: p
@@ -34,9 +35,9 @@ object primes {
   Given a list of primes, return the next one
    */
 
-  def nextPrime(primes:List[BigInt]): BigInt = {
+  def nextPrime(primes:List[Int]): Int = {
 
-    def findNext(c:BigInt): BigInt = {
+    def findNext(c:Int): Int = {
       //if (primes.find( c % _ == 0).isEmpty) c
       if (isPrime(c,primes)) c
       else findNext(c+2)
@@ -49,12 +50,18 @@ object primes {
   Return the i'th prime
    */
 
-  def apply(i:BigInt): BigInt = {
-    var primes = genPrimes(10000)
+  def apply(i:Int): Int = {
+    var primes = genPrimes(10000) //.toBuffer
     val len = primes.length
     if (i <= len) primes(i-1)
-    else for {j <- len+1 to i} {
+
+    else for {j <- len until i} {
+
       primes = (nextPrime(primes) :: primes.reverse).reverse
+      /*
+      Ahhh some ridiculous reverses.  Need to change nextPrime to accept ListBuffer
+      primes = nextPrime(primes) :: primes
+       */
     }
     primes.last
   }
@@ -65,7 +72,7 @@ object primes {
   all known primes up to sqrt(n)
    */
 
-  def isPrime(n: BigInt, primes:List[BigInt] = Nil): Boolean = {
+  def isPrime(n: Int, primes:List[Int] = Nil): Boolean = {
     val N = ceil(sqrt(n)).toInt
     if (primes.isEmpty || primes.last <= N) {
       val primes = genPrimes(N)
@@ -80,10 +87,10 @@ object primes {
   Return list of tuples (prime factor, multiplicity) so that
   n == primeFactors(n).map(x => pow(x._1, x._2)).product
    */
-  def primeFactors(n:BigInt): List[(BigInt,Int)] = {
-    val pfs = genPrimes(n).filter(n % _ == 0)
+  def primeFactors(n:Double): List[(Int,Int)] = {
+    val pfs = genPrimes(ceil(sqrt(n)).toInt).filter(n % _ == 0)
 
-    def getMult(n:BigInt, f:BigInt, mult: Int = 0): Int = {
+    def getMult(n:Double, f:Int, mult: Int = 0): Int = {
       require(f != 1)
       if (n % f != 0) mult
       else {
@@ -102,7 +109,7 @@ object primes {
 def totient(n:Int): Int = {
     val pfs = primeFactors(n).map(x => x._1)
 
-    (1 until n).filter{primeFactors(_).map(x => x._1).intersect(pfs).isEmpty}.length
+    List.range(1,n-1).filter{primeFactors(_).map(x => x._1).intersect(pfs).isEmpty}.length
   }
 
 }

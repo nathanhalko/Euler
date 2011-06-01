@@ -1,6 +1,15 @@
 package com.spotinfluence
 import scala.math._
 
+/*
+A Pythagorean triplet is a set of three natural numbers, a  b  c, for which,
+
+a2 + b2 = c2
+For example, 32 + 42 = 9 + 16 = 25 = 52.
+
+There exists exactly one Pythagorean triplet for which a + b + c = 1000.
+Find the product abc.
+ */
 
 object Prob009 {
   def main(args: Array[String]) {
@@ -13,20 +22,28 @@ object Prob009 {
   }
   */
 
-  val x = Stream.range(3,23).map(m => Stream.range(1,m).map(n => List(m*m-n*n,2*m*n,m*m+n*n))).find(_.sum == 1000).flatten
+
+  val x = Iterable.range(3,23).map(m => Iterable.range(1,m).map(n => List(m*m-n*n,2*m*n,m*m+n*n)).find(_.sum == 1000)).flatten.flatten.toList
     /* -nph
     Seems like this should work but I'm getting an error
 
 <console>:7: error: could not find implicit value for parameter num: Numeric[List[Int]]
        val x = Stream.range(3,23).map(m => Stream.range(1,m).map(n => List(m*m-n*n,2*m*n,m*m+n*n))).find(_.sum == 1000).flatten
 
-    Using 'find' and the stream should simulate the break since it will only compute until the first tripet is found right?
+       *****corrected. The find operation needed to be nested for access the List.  x's type is
+       * Iterable[Iterable[List[Int]]]
+
+    Using 'find' and the Iterable should simulate the break since it will only compute until the first triplet is found.
+
+  Also annoying: I can't run say Prob003 while there is a bug here in Prob009????
      */
 
   //val x = pTrip().filter(_.sum == 1000)(0)
   println("%d + %d + %d = 1000".format(x(0),x(1),x(2)))
-  println("and %d + %d= %d".format(pow(x(0),2).toInt,pow(x(1),2).toInt,pow(x(2),2).toInt))
+  println("and %d + %d = %d".format(pow(x(0),2).toInt,pow(x(1),2).toInt,pow(x(2),2).toInt))
   println("whose product is %d".format(x(0)*x(1)*x(2)))
+
+
 
   }
 }
